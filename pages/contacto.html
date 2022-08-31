@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" href="../img/logo.jpg">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- CSS propio -->    
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/8f5c9daf85.js" crossorigin="anonymous"></script>
+    <title>UNIÓN AMERICANA</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="../index.html">
+            <img src="../img/logo.jpg" alt="Logo" height="30px">
+        </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="./servicios.html">Servicios</a>
+                </li>
+                <li>
+                    <a href="./horarios.html">Horarios</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contacto-container">
+            <div class="contacto-titulo">
+                <h1>¿TIENES ALGUNA DUDA? CONTÁCTANOS</h1>
+            </div>
+            <div class="flex-container">
+                <form action="#" method="get" class="form">
+                    <div class="form-section">
+                        <label for="name">Nombre y apellido</label><br>
+                        <input type="text" class="form-input" name="name" placeholder="Nombre y apellido"
+                            required><br><br>
+                    </div>
+                    <div class="form-section">
+                        <label for="mail">Email</label><br>
+                        <input type="email" class="form-input" name="mail" placeholder="Email" required><br><br>
+                    </div>
+                    <div class="form-section">
+                        <label for="phone">Teléfono</label><br>
+                        <input type="number" class="form-input" name="phone" placeholder="Teléfono" required><br><br>
+                    </div>
+                    <div class="form-section">
+                        <label for="age">Edad</label><br>
+                        <input type="number" class="form-input" name="age" placeholder="Edad"><br><br>
+                    </div>
+                    <label for="genre">Hombre</label>
+                    <input type="radio" name="genre" value="hombre">
+                    <label for="genre">Mujer</label>
+                    <input type="radio" name="genre" value="mujer">
+                    <label for="genre">NS/NC</label>
+                    <input type="radio" name="genre" value="ns/nc"><br><br>
+                    <label>Acepta términos y condiciones</label>
+                    <input type="checkbox" name="acepta" value="si"><br><br>
+
+                    <div class="form-section">
+                        <textarea class="form-input" placeholder="Escriba su mensaje"></textarea>
+                    </div>
+                    <div class="form-section">
+                        <input type="submit" class="form-input submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+            <div class="wpp">
+                <a href="https://wa.me/+543413664338" target="_blank">
+                    <img src="../img/wpp.png" alt="WhatsApp">
+                </a>
+            </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <p>uamericana@gmail.com</p>
+            <ul class="redes">
+                <li>
+                    <a href="https://www.facebook.com/FutsalUnionAmericana" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/futsalunionamericana/?hl=es" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <!-- https://www.instagram.com/union.americana.natacion/ -->
+            </ul>
+            <p>Todos Los Derechos<br> Reservados © 2022</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+</html>
